@@ -1,12 +1,14 @@
 <template>
 <center>
-  <div id="chat">
+  <el-card class="box-card">
+    
  
    <header-page></header-page>
    <nav-bar></nav-bar>
 
    <submit-page></submit-page>
-  </div>
+    
+  </el-card>
 </center>
 </template>
 
@@ -45,5 +47,8 @@ z-index:0;
 #chat p{
 font-family: 'Dancing Script', cursive;
 }
-
+.box-card {
+  width: 80%;
+  height:400px;
+}
 </style>
